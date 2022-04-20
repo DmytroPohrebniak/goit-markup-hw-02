@@ -1,0 +1,30 @@
+.page {
+    background-color: #ffffff;
+    color: #757575;
+}
+.list {
+    list-style: none;
+}
+/* Logo */
+.logo {
+    color: #000000;
+}
+.logo-type {
+    color: #2196F3;
+}
+/* site-nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+/* contacts-nav */
+.contacts-nav .contact {
+    color: #757575;
+}
+.contacts-nav .contact:hover,
+.contacts-nav .contact:focus {
+    color: #2196F3;
+}
