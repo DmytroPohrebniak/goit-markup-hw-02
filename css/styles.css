@@ -3,6 +3,7 @@
     --text-title-color: #212121;
     --accent-color: #2196F3;
 }
+/* Styles for index.html */
 .page {
     background-color: #ffffff;
     color: var(--primary-text-color);
@@ -23,6 +24,9 @@
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
     color: var(--accent-color);
 }
 /* Contacts-nav */
@@ -61,12 +65,14 @@
 .footer {
     background-color: #2F303A;
 }
-.logo-footer, .address-nav {
+.logo-footer, 
+.address-nav {
     color: #ffffff;
 }
 .footer .contacts-footer {
     color: rgba(255, 255, 255, 0.6);;
 }
+
 .footer .contacts-footer:hover,
 .footer .contacts-footer:focus {
     color: var(--accent-color);
@@ -77,4 +83,20 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
+}
+/* Styles for portfolio.html */
+
+.portfolio-title,
+.project-title {
+    color: var(--text-title-color);
+}
+.button.filter {
+    background-color: #F5F4FA;
+    color: var(--text-title-color);
+}
+.button.filter:hover,
+.button.filter:focus,
+.button.filter:active {
+    background-color: var(--accent-color);
+    color: #ffffff;
 }
