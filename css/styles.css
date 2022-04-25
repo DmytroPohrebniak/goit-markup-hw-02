@@ -153,15 +153,15 @@
     line-height: 1.71;
     text-decoration: none;
 }
-.footer .contacts-footer {
+.footer .contact-footer {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
 
-.footer .contacts-footer:hover,
-.footer .contacts-footer:focus {
+.footer .contact-footer:hover,
+.footer .contact-footer:focus {
     color: var(--accent-color);
 }
 
