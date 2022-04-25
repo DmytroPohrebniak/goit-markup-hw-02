@@ -7,7 +7,6 @@
 .page {
     background-color: #ffffff;
     color: var(--primary-text-color);
-
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -102,6 +101,10 @@
     line-height: 1.14;
     text-transform: uppercase;
 }
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 /* Abilities */
 /* Team */
@@ -135,18 +138,17 @@
     line-height: 1.19;
     text-decoration: none;
 } 
+.address {
+    font-style: normal;
+}
 .address-nav {
     color: #ffffff;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
 .footer .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
