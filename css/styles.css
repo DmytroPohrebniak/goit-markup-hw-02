@@ -13,7 +13,9 @@
 .list {
     list-style: none;
 }
+
 /* Logo */
+
 .logo {
     color: #000000;
     font-family: Raleway, sans-serif;
@@ -25,6 +27,7 @@
 .logo-type {
     color: var(--accent-color);
 }
+
 /* Site-nav */
 
 .site-nav-link {
@@ -42,7 +45,9 @@
 .site-nav-link.current {
     color: var(--accent-color);
 }
+
 /* Contacts-nav */
+
 .contacts-nav .contact {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -108,6 +113,7 @@
 
 /* Abilities */
 /* Team */
+
 .team {
     background-color: #F5F4FA;
 }
